@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.pm2.koolandthegang</OriginalElement>
+  <nodes>
+    <node x="481.0" y="942.0">com.pm2.koolandthegang.Main</node>
+    <node x="0.0" y="280.0">com.pm2.koolandthegang.TextFormatter</node>
+    <node x="457.0" y="637.0">com.pm2.koolandthegang.TextEditor</node>
+    <node x="451.42857142857144" y="0.0">com.pm2.koolandthegang.Toolbox</node>
+    <node x="370.0" y="323.5">com.pm2.koolandthegang.TextModifyer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.pm2.koolandthegang.Main" target="com.pm2.koolandthegang.TextEditor">
+      <point x="-39.0" y="-71.5" />
+      <point x="520.0" y="917.0" />
+      <point x="508.0" y="917.0" />
+      <point x="-51.0" y="127.5" />
+    </edge>
+    <edge source="com.pm2.koolandthegang.TextEditor" target="com.pm2.koolandthegang.TextModifyer">
+      <point x="-17.0" y="-127.5" />
+      <point x="542.0" y="597.0" />
+      <point x="464.5" y="597.0" />
+      <point x="-94.5" y="105.0" />
+    </edge>
+    <edge source="com.pm2.koolandthegang.TextModifyer" target="com.pm2.koolandthegang.Toolbox">
+      <point x="-94.5" y="-105.0" />
+      <point x="464.5" y="255.0" />
+      <point x="500.42857142857144" y="255.0" />
+      <point x="-147.0" y="115.0" />
+    </edge>
+    <edge source="com.pm2.koolandthegang.TextEditor" target="com.pm2.koolandthegang.Toolbox">
+      <point x="85.0" y="-127.5" />
+      <point x="644.0" y="617.0" />
+      <point x="769.5" y="617.0" />
+      <point x="769.5" y="255.0" />
+      <point x="794.4285714285714" y="255.0" />
+      <point x="147.0" y="115.0" />
+    </edge>
+    <edge source="com.pm2.koolandthegang.TextEditor" target="com.pm2.koolandthegang.TextFormatter">
+      <point x="-85.0" y="-127.5" />
+      <point x="474.0" y="617.0" />
+      <point x="87.5" y="617.0" />
+      <point x="-87.5" y="148.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="580.0" y="358.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
